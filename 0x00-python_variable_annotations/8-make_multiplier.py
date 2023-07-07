@@ -4,6 +4,7 @@
 Module: 8-make_multiplier
 Description: Contains a function to create a multiplier function.
 """
+
 from typing import Callable
 
 
@@ -11,9 +12,11 @@ def make_multiplier(multiplier: float) -> Callable[[float], float]:
     """
     Creates a multiplier function.
 
-    return type is annotated as Callable[[float], float], specifying 
-    that the function will return another function that takes a float
-    as an argument and returns a float.
+    Args:
+        multiplier (float): The multiplier value.
+
+    Returns:
+        Callable[[float], float]: The multiplier function.
     """
     def multiplier_func(number: float) -> float:
         """
