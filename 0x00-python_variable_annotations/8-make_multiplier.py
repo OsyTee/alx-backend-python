@@ -4,7 +4,6 @@
 Module: 8-make_multiplier
 Description: Contains a function to create a multiplier function.
 """
-
 from typing import Callable
 
 
