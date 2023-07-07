@@ -1,14 +1,11 @@
 #!/usr/bin/env python3
-'''
-Function takes a string and int/float arguments and returns a tuple with the str and square 
-of the int/float annotated as a float.
+'''Task 7's module.
 '''
 from typing import Union, Tuple
 
 
 def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
-    '''
-    Returns a tuple with a sting and a suare of the integer
-    or float "v" annotated as a float
+    '''Converts a key and its value to a tuple of the key and
+    the square of its value.
     '''
     return (k, float(v**2))
