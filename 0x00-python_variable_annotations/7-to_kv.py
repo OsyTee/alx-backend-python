@@ -3,7 +3,6 @@
 Function takes a string and int/float arguments and returns a tuple with the str and square 
 of the int/float annotated as a float.
 '''
-
 from typing import Union, Tuple
 
 
