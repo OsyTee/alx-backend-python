@@ -4,10 +4,10 @@ Function takes a string and int/float arguments and returns a tuple with the str
 of the int/float annotated as a float.
 '''
 
-from typing import Union
+from typing import Union, Tuple
 
 
-def to_kv(k: str, v: Union[int, float]) -> tuple[str, float]:
+def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
     '''
     Returns a tuple with a sting and a suare of the integer
     or float "v" annotated as a float
