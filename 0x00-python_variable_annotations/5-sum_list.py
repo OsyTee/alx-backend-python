@@ -7,4 +7,4 @@ from typing import List
 def sum_list(input_list: List[float]) -> float:
     ''' Calculates and returns the sum of all floats in the list
     '''
-    return sum(input_list)
+    return float(sum(input_list))
