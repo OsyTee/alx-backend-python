@@ -1,6 +1,11 @@
 #!/usr/bin/env python3
-'''Task 2's module.
-'''
+"""
+Module: 2-measure_runtime
+-------------------------
+This module contains a coroutine called `measure_runtime` that
+executes async_comprehension four times in parallel
+using asyncio.gather.
+"""
 import asyncio
 import time
 from importlib import import_module as using
